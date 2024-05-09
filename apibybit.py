@@ -3,7 +3,7 @@ import hmac
 import hashlib
 import requests
 
-# Функция для отправки запроса на создание ордера
+
 def create_order(api_key, api_secret, symbol, side, quantity, price):
     BASE_URL = 'https://api.bybit.com'
     ENDPOINT = '/v2/private/order/create'
